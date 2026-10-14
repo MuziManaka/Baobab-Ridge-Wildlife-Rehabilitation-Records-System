@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Baobab_Ridge_Wildlife_Rehabilitation_Records_System
+namespace Baobab_Ridge_Wildlife_Rehabilitation_Records_System.Forms
 {
-    public partial class Form1 : Form
+    public partial class ViewPets : Form
     {
-        public Form1()
+        public ViewPets()
         {
             InitializeComponent();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
